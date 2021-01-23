@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia de Santo</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css" />
+    <link rel="stylesheet" href="../../assets/css/Dia-de-Santo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+
+        <div id="headerCode"></div>
+
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container pl-3 pr-3 bg-white pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3 ">
+                    <h2 class="main-heading CL GM">Dia de Santo</h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <h4 class="pt-4 GM">Dia de Reis (Epifania)</h4>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 03 de Janeiro de 2021
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img src="../../assets/img/Dia-de-santo/january/03_Post_Dia_Santo_Janeiro_2021.jpg" class="img-fluid " alt=""></div>
+
+
+                            <div class="GB text-justify">
+                                <p>
+                                    A solenidade da Epifania do Senhor, popularmente conhecida como Dia de Reis, relembra a visita dos reis magos ao Menino Jesus, pouco tempo depois de seu nascimento. Mas qual o significado desta solenidade tão rica de imagens simbólicas?
+                                </p>
+
+                                <p>Vamos começar pela palavra “epifania”, que quer dizer “manifestação”. É, portanto, a manifestação do próprio Deus que veio ao mundo como criança para revelar o amor de Deus à humanidade. 
+                                </p>
+
+                             <p>
+                                Para as pessoas daquela época, ao verem o recém-nascido, como poderiam saber que aquela criança era o próprio Deus? Por isso os evangelhos de Lucas e de Mateus contam de maneiras diferentes o nascimento de Jesus como manifestação de Deus. Aos pastores (Lc 2,8-20) aparecem anjos que anunciam o nascimento do Salvador. Os magos veem uma estrela que os leva até o menino (Mt 2,1-12).
+                             </p>
+                             <p>
+                                É muito profundo o simbolismo da estrela que guiou os reis magos. No judaísmo, a estrela é um sinal messiânico. Quando ela aparecia, os reis magos se enchiam de alegria e podiam ir ao encontro de Jesus. Qual é a estrela que me guia no caminho que me conduz a Jesus? Ou não sou capaz de enxergar a sua estrela?
+                             </p>
+                             <p>
+                                Os reis magos levaram presentes para o menino Jesus: ouro, incenso e mirra. Qual o significado desses presentes? Dizem os entendidos que o ouro simboliza a realeza de Jesus; o incenso, a sua divindade; e a mirra, a humanidade de Jesus. Isso faz sentido, pois o ouro, por ser precioso, símbolo de riqueza e poder, é um presente digno de um rei. O incenso se oferece a Deus como perfume que se espalha e sobe ao céu, levando nossas orações. A mirra era usada na preparação do corpo para a sepultura, o que pode ser associado à paixão de Cristo.
+                             </p>
+                             <p>
+                                E nós, que presentes levamos para o Filho de Deus que se fez pequenino e pobre? Como manifesto às pessoas que convivem comigo a presença (manifestação) de Deus em minha vida? Que a Epifania do Senhor nos ajude a revelar a ação de Deus presente na vida de todos os povos! 
+                             </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <div class="icalendar">
+                            <div class="icalendar__month">
+                                <div class="icalendar__prev" onclick="moveDate('prev')">
+                                    <span>&#10094</span>
+                                </div>
+                                <div class="icalendar__current-date">
+                                    <h2 id="icalendarMonth"></h2>
+                                    <div>
+                                        <div id="icalendarDateStr"></div>
+                                    </div>
+
+                                </div>
+                                <div class="icalendar__next" onclick="moveDate('next')">
+                                    <span>&#10095</span>
+                                </div>
+                            </div>
+                            <div class="icalendar__week-days">
+                                <div>D</div>
+                                <div>S</div>
+                                <div>T</div>
+                                <div>Q</div>
+                                <div>Q</div>
+                                <div>S</div>
+                                <div>S</div>
+                            </div>
+                            <div class="icalendar__days"></div>
+
+
+                        </div>
+                    </div>
+                    <!-- BLOG HEADING -->
+                      <a href="../Dia-Multiple.html">
+                        <p class="blog-heading pt-3 ">
+                            Santos Anteriores
+                        </p>
+                    </a>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="postdiv"></div>
+
+                    <div class="tagDiv">
+                        <h class="blue tags GM pb-1">Tags</h5>
+                    </div>
+                    <div class="GM">
+                        <div class="btnclass GM">
+                            <button class="adjbtn">missão</button>
+                            <button class="adjbtn">Amazônia</button>
+                            <button class="adjbtn">evengel</button>
+                        </div>
+                        <div class="btnclass GM">
+                            <button class="adjbtn">covid-19</button>
+                            <button class="adjbtn">indigenas</button>
+                            <button class="adjbtn">noviça</button>
+                        </div>
+                        <div class="btnclass">
+
+
+
+                            <button class="adjbtn">papa francisco</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>
+<script src="../../assets/script/santo-single-page.js"></script>

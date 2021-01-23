@@ -1,0 +1,115 @@
+.bg-white {
+    background-color: #ffffff;
+    /* max-width: 1111px; */
+}
+
+.border-1 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+.border-2 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+
+/* .GB
+{
+    text-align: justify;
+    
+} */
+
+.img-1 {
+    float: right;
+    width: 65%;
+    padding-left: 25px;
+}
+
+.img-2 {
+    float: right;
+    width: 50%;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.img-3 {
+    float: right;
+    width: 50%;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.img-width {
+    width: 86%;
+}
+
+.sky-backgorund {
+    background-image: url(../img/sky-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.world-div {
+    border: 1px solid lightgray;
+    background-color: #f9f9f9;
+}
+
+.hr {
+    border: 1px solid lightgray;
+}
+
+
+/* side bar start */
+
+.CV-Video-Link-Post {
+    height: auto;
+    border-bottom: 2px solid #dce4e7;
+    padding-top: 6px;
+}
+
+.img_1 {
+    width: 25%;
+}
+
+.add-mt-15-CV-Video {
+    font-size: 0.8rem;
+    color: #666666 !important;
+}
+
+.border-1 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+
+/* side bar end */
+
+@media (max-width:800px) and (min-width:300px) {
+    .Quem-Somos {
+        text-align: center;
+    }
+    .img-1 {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .img-2 {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .img-3 {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .bottom {
+        padding-bottom: 30px;
+    }
+    .flex-sm-nowrap {
+        flex-wrap: nowrap;
+        font-size: 14px;
+    }
+}

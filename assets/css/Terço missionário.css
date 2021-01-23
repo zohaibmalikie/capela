@@ -1,0 +1,107 @@
+
+
+
+.bg-white
+{
+    background-color: #ffffff;
+    /* max-width: 1111px; */
+}
+
+.border-1
+{
+    border-bottom: 3px solid #dce4e7;
+}
+
+.border-2
+{
+    border-bottom: 3px solid #dce4e7;
+}
+
+/* .GB
+{
+    text-align: justify;
+    
+} */
+
+.lower-v-text
+{
+    line-height: 16px;
+}
+
+
+
+
+.sky-backgorund {
+    background-image: url(../img/sky-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+
+.world-div
+{
+    border: 1px solid lightgray;
+    background-color: #f9f9f9;
+    
+}
+
+
+
+
+
+
+
+/* side bar start */
+
+
+
+.blog-heading {
+    color: #3884c1 !important;
+    font-size: 18px;
+}
+.CV-Video-Link-Post{
+    height: auto;
+    border-bottom: 2px solid #dce4e7;
+    padding-top: 6px;
+}
+
+.img_1{
+     width: 25%;
+}
+.add-mt-15-CV-Video{
+    font-size: 0.8rem;
+    color: #666666 !important;
+    
+}
+.date-text{
+    font-size: 0.6rem;
+    color: #666666 !important;
+}
+.border-1
+{
+border-bottom: 3px solid #dce4e7;
+}
+     
+
+
+/* side bar end */
+
+
+
+
+
+
+
+@media (max-width:800px) and (min-width:300px) {
+    
+
+    
+
+}
+
+
+
+
+
+

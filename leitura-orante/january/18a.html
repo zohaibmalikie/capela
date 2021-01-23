@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEITURA ORANTE</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css">
+    <link rel="stylesheet" href="../../assets/css/leitura-orante-sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+        <div id="headerCode"></div>
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container bg-white pl-3 pr-3 pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+                    <h2 class="main-heading ">Leitura Orante </h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <div>
+                                    <h4 class="pt-4">Leituras do Dia</h4>
+                                </div>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 18 de janeiro de
+                                    2021
+                                </p>
+                                <div>
+                                    <h5 class="GM CL">2ª Semana do Tempo Comum</h5>
+                                </div>
+                                <div>
+                                    <p class="GB CL">(Verde – Ofício do dia)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img
+                                    src="../../assets/img/leitura/leitura-img-jan/18_Janeiro_2021.jpg" class="img-fluid"
+                                    alt="">
+                                <div class="img-content">
+                                    <p class="GM mb-0 text-end pt-2">Leitura Orante do Evangelho
+                                    </p>
+                                    <p class="GL mb-0">
+                                        Ouca o audio com oracao e reflexao do
+
+                                    </p>
+                                    <p class="text-end">
+                                        padre Fransico das Chages
+                                    </p>
+                                    <div class="webkit-right">
+                                        <audio id="audio_play">
+                                            <source
+                                                src="../../assets/audio/leitura-orante-jan/09_01_2021_Leitura_Orante.mp4"
+                                                type="audio/ogg">
+                                        </audio>
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/LISTEN.png"
+                                            class="img-fluid  listen_pause_web" alt="" onclick="play()" id="play">
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/PAUSE.png"
+                                            class="img-fluid listen_play_web" alt="" onclick="pause()" id="pause">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Oração do dia</h5>
+
+                                <p class="GB CL" id="para_content">
+                                    Ó Deus, unidade suprema e caridade verdadeira, dai a vossos fiéis um só coração e
+                                    uma só alma, para que vivam em plena concórdia, e a vossa Igreja enraizada na
+                                    verdade, se firme na unidade perfeita. Por Nosso Senhor Jesus Cristo, vosso Filho,
+                                    na unidade do Espírito Santo.
+                                </p>
+
+                            </div>
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Leitura: Hebreus 5,1-10</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    <sup>1</sup> Todo sumo sacerdote é tirado do meio dos homens e instituído em favor
+                                    dos homens
+                                    nas coisas que se referem a Deus, para oferecer dons e sacrifícios pelos pecados.
+                                    <sup>2</sup>
+                                    Sabe ter compaixão dos que estão na ignorância e no erro, porque ele mesmo está
+                                    cercado de fraqueza. <sup>3</sup> Por isso, deve oferecer sacrifícios tanto pelos
+                                    pecados do
+                                    povo quanto pelos seus próprios. <sup>4</sup> Ninguém deve atribuir-se essa honra,
+                                    senão o que
+                                    foi chamado por Deus, como Aarão. <sup>5</sup> Deste modo, também Cristo não se
+                                    atribuiu a si
+                                    mesmo a honra de ser sumo sacerdote, mas foi aquele que lhe disse: “Tu és o meu
+                                    Filho, eu hoje te gerei”. <sup>6</sup> Como diz em outra passagem: “Tu és sacerdote
+                                    para
+                                    sempre, na ordem de Melquisedeque”. <sup>71</sup> Cristo, nos dias de sua vida
+                                    terrestre,
+                                    dirigiu preces e súplicas, com forte clamor e lágrimas, àquele que era capaz de
+                                    salvá-lo da morte. E foi atendido, por causa de sua entrega a Deus. <sup>8</sup>
+                                    Mesmo sendo
+                                    Filho, aprendeu o que significa a obediência a Deus por aquilo que ele sofreu.
+                                    <sup>9</sup>
+                                    Mas, na consumação de sua vida, tornou-se causa de salvação eterna para todos os que
+                                    lhe obedecem. <sup>10</sup> De fato, ele foi por Deus proclamado sumo sacerdote na
+                                    ordem de
+                                    Melquisedec. –
+                                    <span class="GM"> <b>Palavra
+                                            do
+                                            Senhor. </b></span>
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5 class="GM CL pt-3">Salmo Responsorial: 109(110)</h5>
+                            </div>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>Tu és sacerdote eternamente segundo a ordem do rei
+                                        Melquisedeque!
+                                    </i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0">Palavra do Senhor ao meu Senhor: “Assenta-te ao lado meu
+                                direito
+                                até que eu ponha os inimigos teus como escabelo por debaixo de teus pés!”
+
+
+
+                            </p>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>Tu és sacerdote eternamente segundo a ordem do rei
+                                        Melquisedeque!
+                                    </i>
+                                </h6>
+                            </div>
+                            <p class="GB CL text-justify mb-0">O Senhor estenderá desde Sião vosso cetro de poder,
+                                pois ele diz: “Domina com vigor teus inimigos.
+
+                            </p>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>Tu és sacerdote eternamente segundo a ordem do rei
+                                        Melquisedeque!
+                                    </i>
+                                </h6>
+                            </div>
+                            <p class="GB CL text-justify mb-0">Tu és príncipe desde o dia em que nasceste;
+                                na glória e esplendor da santidade, como o orvalho, antes da aurora, eu te gerei!”
+
+
+                            </p>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>Tu és sacerdote eternamente segundo a ordem do rei
+                                        Melquisedeque!
+                                    </i>
+                                </h6>
+                            </div>
+                            <p class="GB CL text-justify mb-0">Jurou o Senhor e manterá sua palavra: “Tu és sacerdote
+                                eternamente
+                                segundo a ordem do rei Melquisedeque!”
+
+
+                            </p>
+
+
+
+
+
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>Tu és sacerdote eternamente segundo a ordem do rei
+                                        Melquisedeque!
+                                    </i>
+                                </h6>
+                            </div>
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Evangelho: Marcos 2,18-22</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Naquele tempo, <sup>18</sup> os discípulos de João Batista e os fariseus estavam jejuando.
+                                    Então, vieram dizer a Jesus: “Por que os discípulos de João e os discípulos dos
+                                    fariseus jejuam e os teus discípulos não jejuam?” <sup>19</sup> Jesus respondeu: “Os convidados
+                                    de um casamento poderiam, por acaso, fazer jejum enquanto o noivo está com eles?
+                                    Enquanto o noivo está com eles, os convidados não podem jejuar. <sup>20</sup> Mas vai chegar o
+                                    tempo em que o noivo será tirado do meio deles; aí, então, eles vão jejuar. <sup>21</sup>
+                                    Ninguém põe um remendo de pano novo numa roupa velha, porque o remendo novo repuxa o
+                                    pano velho e o rasgão fica maior ainda. <sup>22</sup> Ninguém põe vinho novo em odres velhos,
+                                    porque o vinho novo arrebenta os odres velhos e o vinho e os odres se perdem. Por
+                                    isso, vinho novo em odres novos ``. –
+                                    <span class="GM"> <b>Palavra da Salvação.</b></span>
+                                </p>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <!-- BLOG HEADING -->
+                        <p class="blog-heading pt-3">
+                            Leituras do mês
+
+
+                        </p>
+                        <div>
+                            <div class="calendar">
+
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="../../assets/script/leitura-calendar.js"
+                                        type="text/javascript"></script>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+                        <div class="tagDiv">
+                            <h class="blue tags GM pb-1">Tags</h5>
+                        </div>
+                        <div class="GM pt-1">
+                            <div class="btnclass GM">
+                                <button class="adjbtn">missão</button>
+                                <button class="adjbtn">Amazônia</button>
+                                <button class="adjbtn">evengel</button>
+                            </div>
+                            <div class="btnclass GM">
+                                <button class="adjbtn">covid-19</button>
+                                <button class="adjbtn">indigenas</button>
+                                <button class="adjbtn">noviça</button>
+                            </div>
+                            <div class="btnclass">
+
+
+
+                                <button class="adjbtn">papa francisco</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- BLOG HEADING -->
+                    <p class="blog-heading pt-3 ">
+                        Destaques
+                    </p>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="destaquesPortion"></div>
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/audio.js"></script>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEITURA ORANTE</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css">
+    <link rel="stylesheet" href="../../assets/css/leitura-orante-sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+        <div id="headerCode"></div>
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container bg-white pl-3 pr-3 pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+                    <h2 class="main-heading ">Leitura Orante </h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <div>
+                                    <h4 class="pt-4">Leituras do Dia</h4>
+                                </div>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 06 de janeiro de
+                                    2021
+                                </p>
+                                <div>
+                                    <h5 class="GM CL">Semana da Epifania </h5>
+                                </div>
+                                <div>
+                                    <p class="GB CL">(Branco, prefácio da Epifania ou do Natal – Ofício do dia)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img
+                                    src="../../assets/img/leitura/leitura-img-jan/06_Janeiro_2021.jpg" class="img-fluid"
+                                    alt="">
+                                <div class="img-content">
+                                    <p class="GM mb-0 text-end pt-2">Leitura Orante do Evangelho
+                                    </p>
+                                    <p class="GL mb-0">
+                                        Ouca o audio com oracao e reflexao do
+
+                                    </p>
+                                    <p class="text-end">
+                                        padre Fransico das Chages
+                                    </p>
+                                    <div class="webkit-right">
+                                        <audio id="audio_play">
+                                            <source
+                                                src="../../assets/audio/leitura-orante-jan/09_01_2021_Leitura_Orante.mp4"
+                                                type="audio/ogg">
+                                        </audio>
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/LISTEN.png"
+                                            class="img-fluid  listen_pause_web" alt="" onclick="play()" id="play">
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/PAUSE.png"
+                                            class="img-fluid listen_play_web" alt="" onclick="pause()" id="pause">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Oração do dia</h5>
+
+                                <p class="GB CL" id="para_content">
+                                    Ó Deus, luz de todas as nações, concedei aos povos da terra viver em perene paz, e
+                                    fazei resplandecer em nossos corações aquela luz admirável que vimos despontar no
+                                    povo da antiga aliança. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.
+                                </p>
+
+                            </div>
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Leitura: 1 João 4,11-18</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    <sup>11</sup>Caríssimos, se Deus nos amou assim, nós também devemos amar-nos uns aos
+                                    outros.
+                                    <sup>12</sup>Ninguém jamais viu a Deus. Se nos amamos uns aos outros, Deus permanece
+                                    conosco, e
+                                    seu amor é plenamente realizado entre nós. <sup>13</sup>A prova de que permanecemos
+                                    com ele, e
+                                    ele conosco, é que ele nos deu o seu Espírito. <sup>14</sup>E nós vimos, e damos
+                                    testemunho,
+                                    que o Pai enviou o seu Filho como Salvador do mundo. <sup>15</sup>Todo aquele que
+                                    proclama que
+                                    Jesus é o Filho de Deus, Deus permanece com ele, e ele com Deus. <sup>16</sup>E nós
+                                    conhecemos
+                                    o amor que Deus tem para conosco e acreditamos nele. Deus é amor: quem permanece no
+                                    amor permanece com Deus, e Deus permanece com ele. <sup>17</sup>Nisto se realiza
+                                    plenamente o
+                                    seu amor para conosco: em nós termos plena confiança no dia do julgamento, porque,
+                                    tal como Jesus, nós somos neste mundo. <sup>18</sup>No amor não há temor. Ao
+                                    contrário, o
+                                    perfeito amor lança fora o temor, pois o temor implica castigo, e aquele que teme
+                                    não chegou à perfeição do amor. – <span class="GM"> <b>Palavra
+                                            do
+                                            Senhor. </b></span>
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5 class="GM CL pt-3">Salmo Responsorial: 71(72)</h5>
+                            </div>
+
+                            <div>
+                                <h6 class="GM CL"><i>As nações de toda a terra hão de adorar-vos, ó Senhor!</i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0 ">Dai ao rei vossos poderes, Senhor Deus, vossa justiça ao
+                                descendente da realeza! Com justiça ele governe o vosso povo, com equidade ele julgue os
+                                vossos pobres.
+                            </p>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>As nações de toda a terra hão de adorar-vos, ó Senhor!</i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0">Os reis de Társis e das ilhas hão de vir e oferecer-lhe
+                                seus presentes e seus dons;
+                                e também os reis de Seba e de Sabá hão de trazer-lhe oferendas e tributos.
+                                Os reis de toda a terra hão de adorá-lo, e todas as nações hão de servi-lo.
+
+
+                            </p>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>As nações de toda a terra hão de adorar-vos, ó Senhor!</i>
+                                </h6>
+                            </div>
+                            <p class="GB CL text-justify mb-0">Libertará o indigente que súplica e o pobre ao qual
+                                ninguém quer ajudar.
+                                Terá pena do indigente e do infeliz e a vida dos humildes salvará.
+
+                            </p>
+
+
+
+
+
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>As nações de toda a terra hão de adorar-vos, ó Senhor!</i>
+                                </h6>
+                            </div>
+
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Evangelho: Marcos 6,45-52</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Depois de saciar os cinco mil homens, <sup>45</sup> Jesus obrigou os discípulos a entrarem na
+                                    barca e irem na frente para Betsaida, na outra margem, enquanto ele despedia a
+                                    multidão. <sup>46</sup> Logo depois de se despedir deles, subiu ao monte para rezar. <sup>47</sup> Ao
+                                    anoitecer, a barca estava no meio do mar e Jesus sozinho em terra. <sup>48</sup> Ele viu os
+                                    discípulos cansados de remar, porque o vento era contrário. Então, pelas três da
+                                    madrugada, Jesus foi até eles, andando sobre as águas, e queria passar na frente
+                                    deles. <sup>49</sup> Quando os discípulos o viram andando sobre o mar, pensaram que era um
+                                    fantasma e começaram a gritar. <sup>50</sup> Com efeito, todos o tinham visto e ficaram
+                                    assustados. Mas Jesus logo falou: “Coragem, sou eu! Não tenhais medo!” <sup>51</sup> Então
+                                    subiu com eles na barca. E o vento cessou. Mas os discípulos ficaram ainda mais
+                                    espantados, <sup>52</sup> porque não tinham compreendido nada a respeito dos pães. O coração
+                                    deles estava endurecido. –
+                                    <span class="GM">
+                                        <b>Palavra da Salvação.</b></span>
+                                </p>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <!-- BLOG HEADING -->
+                        <p class="blog-heading pt-3">
+                            Leituras do mês
+
+
+                        </p>
+                        <div>
+                            <div class="calendar">
+
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="../../assets/script/leitura-calendar.js"
+                                        type="text/javascript"></script>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+                        <div class="tagDiv">
+                            <h class="blue tags GM pb-1">Tags</h5>
+                        </div>
+                        <div class="GM pt-1">
+                            <div class="btnclass GM">
+                                <button class="adjbtn">missão</button>
+                                <button class="adjbtn">Amazônia</button>
+                                <button class="adjbtn">evengel</button>
+                            </div>
+                            <div class="btnclass GM">
+                                <button class="adjbtn">covid-19</button>
+                                <button class="adjbtn">indigenas</button>
+                                <button class="adjbtn">noviça</button>
+                            </div>
+                            <div class="btnclass">
+
+
+
+                                <button class="adjbtn">papa francisco</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- BLOG HEADING -->
+                    <p class="blog-heading pt-3 ">
+                        Destaques
+                    </p>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="destaquesPortion"></div>
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/audio.js"></script>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>

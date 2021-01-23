@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia de Santo</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css" />
+    <link rel="stylesheet" href="../../assets/css/Dia-de-Santo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+
+        <div id="headerCode"></div>
+
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container pl-3 pr-3 bg-white pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3 ">
+                    <h2 class="main-heading CL GM">Dia de Santo</h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <h4 class="pt-4 GM">Nossa Senhora das Dores</h4>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 15 de Setembro de 2020
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img src="../../assets/img/Dia-de-santo/September/15_Post_Dia_Santo_Setembro_2020.jpg" class="img-fluid " alt=""></div>
+
+
+                            <div class="GB text-justify">
+                                <p>Hoje celebramos a memória a Nossa Senhora das Dores.
+                                </p>
+
+                                <p>A devoção a Nossa Senhora das Dores foi iniciada em 1221, no Mosteiro de Shonau, na Alemanha. Em 1667, a Ordem dos Servos de Maria (religiosos servitas) obteve aprovação da veneração litúrgica das sete dores da Virgem.
+                                    Mais tarde, o Papa Pio X fixou no calendário litúrgico a data definitiva de 15 de setembro com o título Virgem Maria Dolorosa. A celebração logo se espalhou pelo mundo.</p>
+
+                                <p>Nossa Senhora recebeu vários títulos ao longo da História. Alguns se referem às dores sofridas em sua vida até a Paixão e Morte de Jesus. Os títulos conhecidos são Nossa Senhora das Dores, da Piedade, da Soledade, das Angústias,
+                                    da Agonia, das Lágrimas, do Calvário, do Pranto e Mãe Dolorosa.</p>
+
+                                <p>O que sabemos das dores de Maria? Quando Jesus foi apresentado no Templo, Simeão profetizou a Maria: “Uma espada de dor transpassará tua alma” (Lc 2,35). Essa profecia confirmou o que ela viveu na Paixão e Morte de seu
+                                    filho. Caminhando com Jesus até aos pés da Cruz, sendo desfigurado e morto, acompanhou-o até o fim. Viveu um profundo sofrimento como mãe. Antes de morrer, Jesus entregou aos cuidados de João a sua mãe, dizendo “Mulher,
+                                    eis aí teu filho”. E a João: “Eis aí tua mãe” (cf. Jo 19,26-27). Assim, também Maria é dada como mãe de todos nós. Diante das dores de nosso mundo, invoquemos a nossa Mãe como intercessora junto a Deus, que olha para
+                                    nossos sofrimentos e vem em nosso socorro.</p>
+
+                                <p>Nossa Senhora das Dores, rogai por todos nós!</p>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <div class="icalendar">
+                            <div class="icalendar__month">
+                                <div class="icalendar__prev" onclick="moveDate('prev')">
+                                    <span>&#10094</span>
+                                </div>
+                                <div class="icalendar__current-date">
+                                    <h2 id="icalendarMonth"></h2>
+                                    <div>
+                                        <div id="icalendarDateStr"></div>
+                                    </div>
+
+                                </div>
+                                <div class="icalendar__next" onclick="moveDate('next')">
+                                    <span>&#10095</span>
+                                </div>
+                            </div>
+                            <div class="icalendar__week-days">
+                                <div>D</div>
+                                <div>S</div>
+                                <div>T</div>
+                                <div>Q</div>
+                                <div>Q</div>
+                                <div>S</div>
+                                <div>S</div>
+                            </div>
+                            <div class="icalendar__days"></div>
+
+
+                        </div>
+                    </div>
+                    <!-- BLOG HEADING -->
+                      <a href="../Dia-Multiple.html">
+                        <p class="blog-heading pt-3 ">
+                            Santos Anteriores
+                        </p>
+                    </a>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="postdiv"></div>
+                    <div class="tagDiv">
+                        <h class="blue tags GM pb-1">Tags</h5>
+                    </div>
+                    <div class="GM">
+                        <div class="btnclass GM">
+                            <button class="adjbtn">missão</button>
+                            <button class="adjbtn">Amazônia</button>
+                            <button class="adjbtn">evengel</button>
+                        </div>
+                        <div class="btnclass GM">
+                            <button class="adjbtn">covid-19</button>
+                            <button class="adjbtn">indigenas</button>
+                            <button class="adjbtn">noviça</button>
+                        </div>
+                        <div class="btnclass">
+
+
+
+                            <button class="adjbtn">papa francisco</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>
+<script src="../../assets/script/santo-single-page.js"></script>

@@ -1,0 +1,817 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hideOnweb {
+    display: none;
+}
+
+.sky-background {
+    background-color: #acd7fa;
+}
+
+.zero-pading {
+    padding: 0px;
+}
+
+.img-border {
+    border: 5px solid white;
+}
+
+.main-img-border {
+    border: 7px solid white;
+}
+
+
+/* header code start */
+
+.main-header {
+    background: url(http://18.217.165.212/angular-tbwb-img/header-background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    height: 133.09px;
+    overflow: hidden;
+}
+
+.mini-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftIcon>img,
+.rightIcon>img {
+    height: 5.5rem;
+}
+
+.centerIcon>img {
+    height: 5rem;
+}
+
+.navbar-nav {
+    margin: 0px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    background-image: linear-gradient(#83b6dc, #307ebe);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+
+/* header code end*/
+
+
+/* Middle Content code start */
+
+.video-border {
+    border: 5px solid white;
+    border-top: none;
+}
+
+#audioForVideo {
+    display: none;
+}
+
+.iconMute {
+    position: relative;
+    font-size: 45px;
+    color: white;
+    bottom: 65px;
+    left: 93%;
+    cursor: pointer;
+    width: 4%;
+}
+
+.iconUnmute {
+    position: relative;
+    font-size: 45px;
+    color: white;
+    bottom: 65px;
+    left: 93%;
+    cursor: pointer;
+    display: none;
+    width: 4%;
+}
+
+.main-bannar {
+    background-size: cover;
+    background-position: bottom;
+    height: 28.3rem;
+}
+
+.img-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+
+.img-content>div>.h2 {
+    font-size: 2.4rem !important;
+}
+
+.img-content>div>.h4 {
+    font-size: 30px !important;
+}
+
+.queTodas {
+    font-size: 25px;
+    line-height: 1.3;
+    height: auto;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+
+.europa {
+    position: absolute;
+    bottom: -10px;
+    left: 12rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.MUNDO {
+    color: white !important;
+}
+
+.img-button {
+    color: #fff;
+    background-color: #3a89c5;
+    display: inline-block;
+    padding: 7px 25px;
+    position: absolute;
+    bottom: 1.1rem;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.banner_Leonardo_1 {
+    border: 5px solid white;
+}
+
+#carousel-div {
+    display: none;
+}
+
+.main-heading {
+    color: #666666;
+}
+
+.border-1 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+.subHeading1 {
+    color: #666666;
+}
+
+.bg-white {
+    background-color: white;
+    /* max-width: 1110px; */
+}
+
+#sidebar-banar {
+    padding: 30px 0px;
+}
+
+.subHeading {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3c8cca;
+}
+
+.calender-div {
+    color: #666666;
+    font-size: 16px;
+}
+
+.orac-content>p {
+    color: #666666;
+}
+
+div>a>button {
+    background-image: linear-gradient(#5ca9e3, #04518b);
+    width: 140px;
+    height: 34px;
+    color: #fff;
+    background-color: #4282b0;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 0px;
+    line-height: 22px;
+    outline: none !important;
+}
+
+.blog-heading {
+    color: #3884c1 !important;
+    font-size: 18px;
+}
+
+.CV-Video-Link-Post {
+    height: auto;
+    border-bottom: 2px solid #dce4e7;
+    padding-top: 6px;
+}
+
+.img_1 {
+    width: 25%;
+}
+
+.add-mt-15-CV-Video {
+    font-size: 0.8rem;
+    color: #666666 !important;
+}
+
+.date-text {
+    font-size: 0.5rem;
+    color: #666666 !important;
+}
+
+
+/* Middle Content code end*/
+
+
+/* footer code start */
+
+.main-footer {
+    background: url(http://18.217.165.212/angular-tbwb-img/header-background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    height: 110px;
+}
+
+.footer-div-left {
+    text-align: center;
+    border-right: 1px solid white;
+    margin: 10px 0px;
+}
+
+.footer-div-right {
+    text-align: center;
+    margin: 10px 0px;
+    padding-bottom: 7px;
+}
+
+.footer-p {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 10px 0px 10px;
+}
+
+.icons>a>Span {
+    padding-right: 35px;
+    text-align: center;
+}
+
+.icons>a>Span>img {
+    width: 6% !important;
+}
+
+.pedido-caption {
+    margin: auto;
+    position: absolute;
+    top: 35px;
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(245, 179, 78);
+    text-align: center;
+    width: 55%;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    left: 65px;
+}
+
+@media (min-width: 1100px) {
+    #home-post {
+        max-width: 70% !important;
+        padding-right: 35px !important;
+    }
+    #home-post-row {
+        margin-right: -50px !important;
+    }
+    .post-img {
+        width: 230px;
+        height: 165px;
+    }
+    #home-post-text {
+        padding-left: 0px !important;
+    }
+    #home-post-container {
+        padding: 0px !important;
+    }
+    #home-post-sidebar {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    #banner-row {
+        margin-top: 1.1rem !important;
+    }
+    #pl-10px {
+        padding-left: 10px !important;
+    }
+}
+
+
+/* footer code end */
+
+
+/* Media Query for Ipad pro screen start*/
+
+@media (max-width: 1100px) and (min-width: 901px) {
+    .nav-link>img {
+        margin-right: 30px;
+    }
+    .main-bannar {
+        height: 23.5rem !important;
+    }
+    .img-content>div>.h2 {
+        font-size: 2rem !important;
+    }
+    .img-content>div>.h4 {
+        font-size: 1.7rem !important;
+    }
+    .queTodas {
+        font-weight: 300;
+        max-width: 34vw;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+    .europa {
+        left: 9.5rem;
+    }
+    .img-button {
+        padding: 6px 15px;
+        font-size: 0.7rem;
+    }
+    #carousel-div {
+        display: none;
+    }
+    .hideOnweb {
+        display: none;
+    }
+}
+
+
+/* Media Query for Ipad pro screen start*/
+
+
+/* Media Query for  tablets and Ipad screen start*/
+
+@media (max-width: 900px) and (min-width: 700px) {
+    .iconMute {
+        font-size: 30px;
+        bottom: 45px;
+    }
+    .iconUnmute {
+        font-size: 30px;
+        bottom: 45px;
+    }
+    .icons>a>Span {
+        padding-right: 20px;
+        text-align: center;
+    }
+    .icons>a>Span>img {
+        width: 9% !important;
+    }
+    .main-bannar {
+        height: 16.9rem !important;
+    }
+    .img-content>div>.h2 {
+        font-size: 1.5rem !important;
+    }
+    .img-content>div>.h4 {
+        font-size: 1.2rem !important;
+    }
+    .queTodas {
+        margin: auto;
+        font-size: 0.8rem;
+    }
+    .europa {
+        bottom: -11px;
+        left: 7rem;
+        font-size: 1.2rem;
+    }
+    .img-border {
+        border: 3px solid white;
+    }
+    .img-button {
+        padding: 4px 8px;
+        font-size: 0.6rem;
+        bottom: 10px;
+    }
+    .pedido-caption {
+        top: 16px;
+        font-weight: bold;
+        color: black;
+        background-color: #f5b34e;
+        width: 45%;
+        height: 25px;
+        font-size: 15px;
+        left: 55px;
+    }
+    #carousel-div {
+        display: none;
+    }
+    .hideOnweb {
+        display: block;
+    }
+    .zero-pading {
+        padding: 0px 15px !important;
+    }
+}
+
+
+/* Media Query for   tablets and Ipads screen start*/
+
+
+/* Media Query for  tablets  screen start*/
+
+@media (max-width: 759px) and (min-width: 580px) {
+    .iconMute {
+        font-size: 30px;
+        bottom: 45px;
+        left: 91%;
+    }
+    .iconUnmute {
+        font-size: 30px;
+        bottom: 45px;
+        left: 91%;
+    }
+    .icons>a>Span {
+        padding-right: 20px;
+        text-align: center;
+    }
+    .icons>a>Span>img {
+        width: 9% !important;
+    }
+    #carousel-div {
+        display: none;
+    }
+    .hideOnweb {
+        display: block;
+    }
+    .zero-pading {
+        padding: 0px 15px !important;
+    }
+}
+
+
+/* Media Query for tablets and laptops screen start*/
+
+
+/* Media Query for  mobile screen start*/
+
+@media (max-width: 579px) and (min-width: 400px) {
+    .iconMute {
+        font-size: 28px;
+        bottom: 45px;
+        left: 91%;
+    }
+    .iconUnmute {
+        font-size: 28px;
+        bottom: 45px;
+        left: 91%;
+    }
+    .zero-pading {
+        padding: 0px 15px !important;
+    }
+    .icons>a>Span {
+        padding-right: 10px;
+        text-align: center;
+    }
+    .icons>a>Span>img {
+        width: 9% !important;
+    }
+    .main-bannar {
+        height: 26rem;
+    }
+    .hideOnweb {
+        display: block;
+    }
+    .img-content>div>.h2 {
+        font-size: 2rem !important;
+    }
+    .img-content>div>.h4 {
+        font-size: 1.4rem !important;
+    }
+    .queTodas {
+        max-width: 80vw;
+        font-size: 1.3rem;
+    }
+    .europa {
+        bottom: -12px;
+        left: 12rem;
+        font-size: 1.5rem;
+    }
+    .img-border {
+        border: 3px solid white;
+    }
+    .img-border>img {
+        width: auto;
+    }
+    .img-button {
+        padding: 7px 40px;
+        bottom: 210px !important;
+        font-size: 1.2rem;
+    }
+    .button-responsive1 {
+        bottom: 50px !important;
+    }
+    #img4 {
+        width: 100%;
+    }
+    #hide-imgs {
+        display: none;
+    }
+    #carousel-div {
+        display: block;
+    }
+    /* carousel css start */
+    /* Hide the images by default */
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+        cursor: pointer;
+    }
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 65%;
+        width: 55px;
+        height: 55px;
+        padding: 6px;
+        margin-top: -50px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+        background-color: grey;
+        opacity: 0.7;
+        border-radius: 100px;
+    }
+    .prev {
+        left: 0px;
+    }
+    .next {
+        right: 0px;
+    }
+    /* Position the "next button" to the right */
+    .next {
+        border-radius: 100px;
+        width: 55px;
+        height: 55px;
+        background-color: grey;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* Container for image text */
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+    }
+    .pedido-caption {
+        margin: auto;
+        position: absolute;
+        top: 46px;
+        font-weight: bolder;
+        color: black;
+        background-color: #f5b34e;
+        text-align: center;
+        width: 70%;
+        height: 35px;
+        border-radius: 10px;
+        font-size: 20px;
+        /* opacity: 0.9; */
+        left: 77px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Six columns side by side */
+    .column {
+        float: left;
+        width: 16.66%;
+    }
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+        opacity: 0.6;
+    }
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+    .carousel-container {
+        margin-top: 20px;
+    }
+    .carousel-slide-img {
+        /* border: 1px solid green; */
+        width: 100%;
+    }
+    .content-label {
+        background-color: #3a89c5;
+        color: white !important;
+        text-align: center;
+    }
+    /* carousel css end */
+}
+
+
+/* Media Query for mobile screen start*/
+
+
+/* Media Query for  mobile screen start*/
+
+@media (max-width: 420px) and (min-width: 300px) {
+    .iconMute {
+        font-size: 18px;
+        bottom: 30px;
+        left: 90%;
+    }
+    .iconUnmute {
+        font-size: 18px;
+        bottom: 30px;
+        left: 90%;
+    }
+    .zero-pading {
+        padding: 0px 15px !important;
+    }
+    .icons>a>Span {
+        padding-right: 10px;
+        text-align: center;
+    }
+    .main-bannar {
+        height: 25rem;
+    }
+    .hideOnweb {
+        display: block;
+    }
+    .img-content>div>.h2 {
+        font-size: 1.9rem !important;
+        margin-top: 1rem !important;
+    }
+    .img-content>div>.h4 {
+        font-size: 1.4rem !important;
+    }
+    .queTodas {
+        max-width: 90vw;
+        font-size: 1.3rem;
+    }
+    .europa {
+        bottom: -13px;
+        left: 8.6rem;
+        font-size: 1.6rem;
+    }
+    .img-border {
+        border: 5px solid white;
+    }
+    #hide-imgs {
+        display: none;
+    }
+    #carousel-div {
+        display: block;
+    }
+    /* carousel css start */
+    /* Hide the images by default */
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+        cursor: pointer;
+    }
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 65%;
+        width: 55px;
+        height: 55px;
+        padding: 6px;
+        margin-top: -50px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+        background-color: grey;
+        opacity: 0.7;
+        border-radius: 100px;
+    }
+    .prev {
+        left: 0px;
+    }
+    .next {
+        right: 0px;
+    }
+    /* Position the "next button" to the right */
+    .next {
+        border-radius: 100px;
+        width: 55px;
+        height: 55px;
+        background-color: grey;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* Container for image text */
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+    }
+    .pedido-caption {
+        margin: auto;
+        position: absolute;
+        top: 46px;
+        font-weight: bolder;
+        color: black;
+        background-color: #f5b34e;
+        text-align: center;
+        width: 60%;
+        height: 35px;
+        border-radius: 10px;
+        font-size: 20px;
+        /* opacity: 0.9; */
+        left: 77px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Six columns side by side */
+    .column {
+        float: left;
+        width: 16.66%;
+    }
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+        opacity: 0.6;
+    }
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+    .carousel-container {
+        margin-top: 20px;
+    }
+    .carousel-slide-img {
+        /* border: 1px solid green; */
+        width: 100%;
+    }
+    .content-label {
+        background-color: #3a89c5;
+        color: white !important;
+        text-align: center;
+    }
+    /* carousel css end */
+}
+
+
+/* Media Query for mobile  screen start*/

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia de Santo</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css" />
+    <link rel="stylesheet" href="../../assets/css/Dia-de-Santo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+
+        <div id="headerCode"></div>
+
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container pl-3 pr-3 bg-white pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3 ">
+                    <h2 class="main-heading CL GM">Dia de Santo</h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <h4 class="pt-4 GM">Santo Inácio de Antioquia, bispo e mártir</h4>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 17 de outubro de 2020
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img src="../../assets/img/Dia-de-santo/October/17_Post_Dia_Santo_Outubro_2020.jpg" class="img-fluid " alt=""></div>
+
+
+                            <div class="GB text-justify">
+                                <p>
+                                    Celebramos hoje a memória de Santo Inácio de Antioquia. Ele foi bispo de Antioquia, terceira maior cidade do Império Romano, depois de Roma e Alexandria. Essa cidade está situada na Síria, e sua Igreja teve como primeiro bispo o apóstolo Pedro, depois
+                                    Evódio e, em seguida, Inácio. Essa sucessão se deu no fim do século I e início do século II.
+                                </p>
+
+                                <p>Inácio era um bispo muito dedicado e tinha grande amor a Cristo e à Igreja. Por isso acompanhou as comunidades de cristãos e as formou com grande zelo. Por meio de cartas que eram enviadas às comunidades de Antioquia e
+                                    outras que conheceu em seu trajeto até Roma, conclamava os cristãos à conversão e a manterem-se em unidade com o seu bispo. Também escreveu ao jovem bispo da cidade de Esmirna, São Policarpo, dizendo “Onde está o bispo,
+                                    aí está a comunidade; assim como onde está Cristo Jesus, aí está a Igreja Católica”.
+                                </p>
+
+                                <p>No governo de Trajano (98-117), foi condenado e, acorrentado, seguiu para Roma, onde foi martirizado na arena. Morreu devorado pelas feras. Os cristãos das comunidades tentaram intervir, mas ele queria dar seu testemunho
+                                    dando a própria vida. E dizia: “Deixem-me ser a comida das feras, pelas quais me será dado saborear Deus. Eu sou o trigo de Deus. Tenho de ser triturado pelos dentes das feras, para tornar-me um pão de Cristo”.</p>
+
+                                <p>E esse homem apaixonado por Cristo e desejoso de encontrá-lo foi venerado pelos cristãos de Antioquia desde a Antiguidade. A partir do século IV, a Igreja passou a celebrar a sua memória em 17 de outubro.</p>
+
+                                <p>Que luzes nos deixa esse santo para nossa vida hoje? Como cristãos, somos chamados a dar testemunho-compaixão. Seguir Jesus implica em nós uma mudança de vida, uma conversão e crescer na unidade e amor à nossa Igreja Católica.</p>
+
+
+
+
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <div class="icalendar">
+                            <div class="icalendar__month">
+                                <div class="icalendar__prev" onclick="moveDate('prev')">
+                                    <span>&#10094</span>
+                                </div>
+                                <div class="icalendar__current-date">
+                                    <h2 id="icalendarMonth"></h2>
+                                    <div>
+                                        <div id="icalendarDateStr"></div>
+                                    </div>
+
+                                </div>
+                                <div class="icalendar__next" onclick="moveDate('next')">
+                                    <span>&#10095</span>
+                                </div>
+                            </div>
+                            <div class="icalendar__week-days">
+                                <div>D</div>
+                                <div>S</div>
+                                <div>T</div>
+                                <div>Q</div>
+                                <div>Q</div>
+                                <div>S</div>
+                                <div>S</div>
+                            </div>
+                            <div class="icalendar__days"></div>
+
+
+                        </div>
+                    </div>
+                    <!-- BLOG HEADING -->
+                      <a href="../Dia-Multiple.html">
+                        <p class="blog-heading pt-3 ">
+                            Santos Anteriores
+                        </p>
+                    </a>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="postdiv"></div>
+                    <div class="tagDiv">
+                        <h class="blue tags GM pb-1">Tags</h5>
+                    </div>
+                    <div class="GM">
+                        <div class="btnclass GM">
+                            <button class="adjbtn">missão</button>
+                            <button class="adjbtn">Amazônia</button>
+                            <button class="adjbtn">evengel</button>
+                        </div>
+                        <div class="btnclass GM">
+                            <button class="adjbtn">covid-19</button>
+                            <button class="adjbtn">indigenas</button>
+                            <button class="adjbtn">noviça</button>
+                        </div>
+                        <div class="btnclass">
+
+
+
+                            <button class="adjbtn">papa francisco</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>
+<script src="../../assets/script/santo-single-page.js"></script>

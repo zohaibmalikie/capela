@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.border-1
+{
+border-bottom: 3px solid #dce4e7;
+}
+.subHeading1{
+    color: #666666;
+}
+.bg-white{
+    background-color: white;
+    /* max-width: 1110px; */
+}
+.div_1{
+    background-color: #effaff;
+    border: 1px solid lightgrey;
+}
+.phone_number{
+    font-weight: 100 !important;
+}
+    
+.logo_provincia{
+    width: 25%;
+    margin: auto;
+}
+.Provincia {
+    color: #007bc5;
+    font-weight: 700;
+    margin: auto;
+}
+.Stella {
+    color: #007bc5;
+    font-weight: 700;
+    font-size: 20px;
+}
+.convento {
+    font-size: 18px;
+    font-weight: 700;
+    color: #666666;
+   
+}
+.contact {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+   
+}
+.telel {
+  
+    color: #666666;
+}
+.message_logo{
+    width: 20%;
+    margin: auto;
+}
+.bottomHeading{
+    color: #666666;
+}
+.btom-div-text{
+    color: #666666;
+}
+
+@media (max-width:579px) and (min-width:300px) {
+    .marginBottom_1 {
+        margin-bottom: 1.2rem;
+    }
+    .bottomImage{
+        width: 50%;
+    }
+    .bottomDiv1{
+    display: flex;
+   
+    align-items: center;
+    margin-bottom: 1rem;
+    }
+    .btom-div-text{
+        padding-left: 15px;
+    }
+    .p1{
+        text-align: start;
+    }
+    .btom-div-text-bold{
+        font-size: 11px;
+    }
+}

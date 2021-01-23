@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia de Santo</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css" />
+    <link rel="stylesheet" href="../../assets/css/Dia-de-Santo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+
+        <div id="headerCode"></div>
+
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container pl-3 pr-3 bg-white pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3 ">
+                    <h2 class="main-heading CL GM">Dia de Santo</h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <h4 class="pt-4 GM">São Sebastião</h4>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 20 de Janeiro de 2021
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img src="../../assets/img/Dia-de-santo/january/20_Post_Dia_Santo_Janeiro_2021.jpg" class="img-fluid " alt=""></div>
+
+
+                            <div class="GB text-justify">
+                          <p>
+                            Sebastião nasceu no século IV, em Narbonne, na França. Sua família se mudou para Milão, quando ele ainda era criança. Após estudos, seguiu a mesma carreira do pai, como militar. Era muito dedicado e, por isso, chegou a ser capitão da 1ª Guarda Pretoriana. Sebastião era cristão e, assim, não participava dos martírios dos irmãos de fé. Defendia-os na prisão, visitando e socorrendo-os na doença. 
+                          </p>
+                          <p>
+                            Segundo textos atribuídos a Santo Ambrósio, famoso bispo de Milão, o objetivo de Sebastião de se alistar no exército era o de dar forças a seus irmãos em Cristo, enfraquecidos pelas torturas, no testemunho de fé. Também buscava anunciar o Evangelho a muitos soldados e prisioneiros. Converteu Cromácio, imperador de Roma, e seu filho, Tibúrcio, que depois foram martirizados. 
+                          </p>
+                          <p>
+                            Quando Maximiliano notou a presença de cristãos, mandou expulsá-los, porém não os filhos de pais servidores no exército, e Sebastião permaneceu. O imperador Maximiliano exigiu que Sebastião renunciasse à fé em Jesus Cristo, mas ele negou e não atendeu à ordem. 
+                          </p>
+                          <p>
+                            Foi condenado a morrer transpassado por flechas, amarrado a uma árvore, diante do povo e dos colegas de ofício. Apesar dos ferimentos, Sebastião não morreu e foi socorrido por uma cristã, que o escondeu e cuidou de seus ferimentos até que ficasse bom. 
+                          </p>
+                          <p>
+                            Sebastião retornou às suas atividades e foi falar com Maximiliano, para que deixasse de perseguir os cristãos. Então este mandou acoitá-lo e jogá-lo numa fossa, para que não fosse encontrado. Morreu no ano de 288. Foi sepultado nas Catacumbas da Via Ápia, as quais levam seu nome e onde está erigida a Basílica de São Sebastião. Sua devoção é muito antiga e é evocado contra as pestes e inimigos da fé cristã. Muitas igrejas levam seu nome no mundo inteiro. 
+                          </p>
+                          <p>
+                            Que a vida de São Sebastião nos inspire a viver a fé na fidelidade a Jesus Cristo, pelo testemunho, sem nada temer, mesmo ante um poder de opressão. Que ele interceda a Deus por todos nós! 
+                          </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <div class="icalendar">
+                            <div class="icalendar__month">
+                                <div class="icalendar__prev" onclick="moveDate('prev')">
+                                    <span>&#10094</span>
+                                </div>
+                                <div class="icalendar__current-date">
+                                    <h2 id="icalendarMonth"></h2>
+                                    <div>
+                                        <div id="icalendarDateStr"></div>
+                                    </div>
+
+                                </div>
+                                <div class="icalendar__next" onclick="moveDate('next')">
+                                    <span>&#10095</span>
+                                </div>
+                            </div>
+                            <div class="icalendar__week-days">
+                                <div>D</div>
+                                <div>S</div>
+                                <div>T</div>
+                                <div>Q</div>
+                                <div>Q</div>
+                                <div>S</div>
+                                <div>S</div>
+                            </div>
+                            <div class="icalendar__days"></div>
+
+
+                        </div>
+                    </div>
+                    <!-- BLOG HEADING -->
+                      <a href="../Dia-Multiple.html">
+                        <p class="blog-heading pt-3 ">
+                            Santos Anteriores
+                        </p>
+                    </a>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="postdiv"></div>
+
+                    <div class="tagDiv">
+                        <h class="blue tags GM pb-1">Tags</h5>
+                    </div>
+                    <div class="GM">
+                        <div class="btnclass GM">
+                            <button class="adjbtn">missão</button>
+                            <button class="adjbtn">Amazônia</button>
+                            <button class="adjbtn">evengel</button>
+                        </div>
+                        <div class="btnclass GM">
+                            <button class="adjbtn">covid-19</button>
+                            <button class="adjbtn">indigenas</button>
+                            <button class="adjbtn">noviça</button>
+                        </div>
+                        <div class="btnclass">
+
+
+
+                            <button class="adjbtn">papa francisco</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>
+<script src="../../assets/script/santo-single-page.js"></script>

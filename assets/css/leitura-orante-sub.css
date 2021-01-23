@@ -1,0 +1,211 @@
+
+
+
+.bg-white
+{
+    background-color: #ffffff;
+    /* max-width: 1111px; */
+}
+
+.border-1
+{
+    border-bottom: 3px solid #dce4e7;
+}
+
+.border-2
+{
+    border-bottom: 3px solid #dce4e7;
+}
+
+/* .GB
+{
+    text-align: justify;
+    
+} */
+
+.img-1
+{
+    float: right;
+    width: 65%;
+    padding-left: 25px;
+}
+
+.img-2
+{
+    float: right;
+    width: 460px;
+   padding-left: 0px;
+    padding-top: 5px;
+    
+}
+
+
+.img-content
+{
+    float: right;
+}
+.widTh{
+    width: 60% !important;
+}
+
+
+.sky-backgorund {
+    background-image: url(../img/sky-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+  /* audio css */
+.listen_pause_web{
+    width: 28%;
+}
+ .listen_play_web{
+    width: 28%;
+}
+.listen_pause_web{
+    width: 137px;
+    margin-top: -11px;
+    cursor: pointer;
+}
+.listen_play_web{
+    width: 137px;
+    margin-top: -11px;
+    cursor: pointer;
+}
+#pause {
+    display: none;
+}
+
+
+/* side bar start */
+
+
+
+
+.CV-Video-Link-Post{
+    height: auto;
+    border-bottom: 2px solid #dce4e7;
+    padding-top: 6px;
+}
+
+.img_1{
+     width: 25%;
+}
+.add-mt-15-CV-Video{
+    font-size: 0.8rem;
+    color: #666666 !important;
+    
+}
+/* .date-text{
+    font-size: 0.6rem;
+    color: #666666 !important;
+} */
+.border-1
+{
+border-bottom: 3px solid #dce4e7;
+}
+.text-end{
+    text-align: end;
+}
+     
+
+
+/* side bar end */
+
+@media (max-width:800px) {
+    .text-end{
+        text-align: start;
+    }
+}
+@media (min-width:1100px) {
+   #ModalCalender{
+       display: none;
+   }
+    .mainHeading
+    {
+        width: 43%;
+        max-height: 205px;
+        min-height: 205px;
+        
+    
+    }
+    .webkit-right{
+        text-align: -webkit-right;
+    }
+    
+    .mainImage-2
+    {
+        margin-top: -22%;
+    }
+    #para_content{
+
+ 
+    width: 43%;
+    text-align: justify;
+    padding-right: 25px;
+}
+#eight_date_img_main{
+    padding-left: 15px;
+}
+}
+
+
+
+
+
+
+
+@media (max-width:800px) and (min-width:300px) {
+    #ModalCalender{
+        display: block;
+    }
+    .Quem-Somos {
+        text-align: center;
+    }
+
+    .img-1
+    {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+
+    
+
+    .img-2
+    {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+
+    .img-3
+    {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+
+    .bottom
+    {
+        padding-bottom: 30px;
+    }
+
+
+    .img-content
+    {
+        float: none;
+    }
+
+    
+
+}
+
+
+
+
+
+

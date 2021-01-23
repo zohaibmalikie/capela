@@ -1,0 +1,142 @@
+.bg-white {
+    background-color: #ffffff;
+    /* max-width: 1111px; */
+}
+
+.border-1 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+.border-2 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+
+/* .GB
+{
+    text-align: justify;
+    
+} */
+
+.color {
+    color: #008aca;
+}
+
+.img-1 {
+    float: right;
+    padding-left: 25px;
+}
+
+.img-2 {
+    float: right;
+    width: 50%;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.img-3 {
+    float: right;
+    width: 50%;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.img-width {
+    width: 86%;
+}
+
+.sky-backgorund {
+    background-image: url(../img/sky-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* side bar start */
+
+.blog-heading {
+    color: #3884c1 !important;
+    font-size: 18px;
+}
+
+.CV-Video-Link-Post {
+    height: auto;
+    border-bottom: 2px solid #dce4e7;
+    padding-top: 6px;
+}
+
+.img_1 {
+    width: 25%;
+}
+
+.add-mt-15-CV-Video {
+    font-size: 0.8rem;
+    color: #666666 !important;
+}
+
+.date-text {
+    font-size: 0.6rem;
+    color: #666666 !important;
+}
+
+.border-1 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+.border-gray {
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color: #f8fcff;
+}
+
+.font-size {
+    font-size: 11px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+
+/* side bar end */
+
+@media (min-width: 1100px) {
+    .img-1 {
+        width: 60%;
+    }
+}
+
+@media (max-width:800px) and (min-width:300px) {
+    .Quem-Somos {
+        text-align: center;
+    }
+    .img-1 {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .img-2 {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .img-3 {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .bottom {
+        padding-bottom: 30px;
+    }
+    .bottom-div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

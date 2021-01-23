@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEITURA ORANTE</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css">
+    <link rel="stylesheet" href="../../assets/css/leitura-orante-sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+        <div id="headerCode"></div>
+
+
+
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container bg-white pl-3 pr-3 pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+                    <h2 class="main-heading ">Leitura Orante </h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <div>
+                                    <h4 class="pt-4">Leituras do Dia</h4>
+                                </div>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 07 de Dezembro de 2020
+                                </p>
+                                <div>
+                                    <h5 class="GM CL">Domingo - 2º Domingo do Ambrósio</h5>
+
+                                </div>
+                                <div>
+                                    <p class="GB CL">(Branco - prefácio do Advento, ofício da memória)
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img src="../../assets/img/leitura/Leitura-orante-img-dec/07_Dezembro_2020.jpg" class="img-fluid" alt="">
+                                <div class="img-content">
+                                    <p class="GM mb-0 text-end pt-2">Leitura Orante do Evangelho
+                                    </p>
+                                    <p class="GL mb-0">
+                                        Ouca o audio com oracao e reflexao do
+
+                                    </p>
+                                    <p class="text-end">
+                                        padre Fransico das Chages
+                                    </p>
+                                    <div class="webkit-right">
+                                        <audio id="audio_play">
+                                            <source src="../../assets/audio/leitura-orante-audios-dec/07_12_2020_Leitura_Orante.mp4" type="audio/ogg">
+                                          </audio>
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/LISTEN.png" class="img-fluid  listen_pause_web" alt="" onclick="play()" id="play">
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/PAUSE.png" class="img-fluid listen_play_web" alt="" onclick="pause()" id="pause">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Oração do dia</h5>
+
+                                <p class="GB mb-0 CL" id="para_content">
+                                    Ó Deus, que fizestes o Bispo Santo Ambrósio doutor da fé católica e exemplo de intrépido pastor, despertai na vossa Igreja homens segundo o vosso coração, que a governem com força e sabedoria. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do
+                                    Espírito Santo.
+                                </p>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class=" col-md-12">
+                            <div>
+                                <h5 class="GM CL pt-3">Leitura: Isaías 35,1-10
+                                </h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify mb-0">
+
+
+                                    <sup>1</sup> Alegre-se a terra que era deserta e intransitável, exulte a solidão e floresça como um lírio.
+                                    <sup>2</sup> Germine e exulte de alegria e louvores. Foi-lhe dada a glória do Líbano, o esplendor do Carmelo e de Saron; seus habitantes verão a glória do Senhor, a majestade do nosso Deus.
+                                    <sup>3</sup> Fortalecei as mãos enfraquecidas e firmai os joelhos debilitados.
+                                    <sup>4</sup> Dizei às pessoas deprimidas: “Criai ânimo, não tenhais medo! Vede, é vosso Deus, é a vingança que vem, é a recompensa de Deus; é ele que vem para vos salvar”.
+                                    <sup>5</sup> Então se abrirão os olhos dos cegos e se descerrarão os ouvidos dos surdos. <sup>6</sup>O coxo saltará como um cervo e se desatará a língua dos mudos, assim como brotarão águas no deserto e jorrarão torrentes
+                                    no ermo. <sup>7</sup>A terra árida se transformará em lago, e a região sedenta, em fontes de água; nas cavernas onde viviam dragões crescerá o caniço e o junco. <sup>8</sup> Ali haverá uma vereda e um caminho; o caminho
+                                    se chamará estrada santa: por ela não passará o impuro, mas será uma estrada reta em que até os débeis não se perderão.
+                                    <sup>9</sup> Ali não existem leões, não andam por ela animais depredadores, nem mesmo aparecem lá; os que forem libertados poderão percorrê-la, <sup>10</sup> os que o Senhor salvou voltarão para casa. Eles virão a Sião
+                                    cantando louvores, com infinita alegria brilhando em seus rostos: cheios de gozo e contentamento, não mais conhecerão a dor e o pranto”. –
+                                    <span class="GM">
+                                            <b>Palavra do Senhor.</b>
+                                           </span>
+                                </p>
+                                </p>
+
+                            </div>
+
+                            <div>
+                                <h5 class="GM CL pt-3">Salmo Responsorial: 84(85)</h5>
+                            </div>
+
+                            <div>
+                                <h6 class="GM CL"><i>Eis que vem o nosso Deus. Ele vem para salvar.</i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0 ">
+                                Quero ouvir o que o Senhor irá falar: é a paz que ele vai anunciar; a paz para o seu povo e seus amigos, para os que voltam ao Senhor seu coração. Está perto a salvação dos que o temem, e a glória habitará em nossa terra.
+
+
+                                <div>
+                                    <h6 class="GM CL pt-3"><i>Eis que vem o nosso Deus. Ele vem para salvar.</i>
+                                    </h6>
+                                </div>
+
+                                <p class="GB CL text-justify mb-0">
+
+                                    A verdade e o amor se encontrarão, a justiça e a paz se abraçarão; da terra brotará a fidelidade, e a justiça olhará dos altos céus.
+                                </p>
+
+
+                                <div>
+                                    <h6 class="GM CL pt-3"><i>Eis que vem o nosso Deus. Ele vem para salvar.</i>
+                                    </h6>
+                                </div>
+                                <p class="GB CL text-justify mb-0">
+
+                                    O Senhor nos dará tudo o que é bom, e a nossa terra nos dará suas colheitas; a justiça andará na sua frente e a salvação há de seguir os passos seus.
+
+                                </p>
+
+
+
+                                <div>
+                                    <h6 class="GM CL pt-3"><i>Eis que vem o nosso Deus. Ele vem para salvar.</i>
+                                    </h6>
+                                </div>
+
+
+
+
+
+                                <div>
+                                    <h5 class="GM CL pt-3">Evangelho: Lucas 5,17-26</h5>
+                                </div>
+
+
+
+                                <div>
+                                    <p class="GB CL text-justify">
+                                        <sup>8</sup>Uma coisa vós não podeis desconhecer, caríssimos: para o Senhor, um dia é como mil anos e mil anos como um dia. <sup>9</sup>O Senhor não tarda a cumprir sua promessa, como pensam alguns, achando que
+                                        demora. Ele está usando de paciência para convosco, pois não deseja que alguém se perca. Ao contrário, quer que todos venham a converter-se. <sup>10</sup>O dia do Senhor chegará como um ladrão, e então os céus acabarão
+                                        com barulho espantoso; os elementos, devorados pelas chamas, se dissolverão, e a terra será consumida com tudo o que nela se fez. <sup>11</sup>Se desse modo tudo se vai desintegrar, qual não deve ser o vosso empenho
+                                        numa vida santa e piedosa, <sup>12</sup>enquanto esperais com anseio a vinda do dia de Deus, quando os céus em chama se vão derreter e os elementos, consumidos pelo fogo, se fundirão? <sup>13</sup>O que nós esperamos,
+                                        de acordo com a sua promessa, são novos céus e uma nova terra, onde habitará a justiça. <sup>14</sup>Caríssimos, vivendo nessa esperança, esforçai-vos para que ele vos encontre numa vida pura e sem mancha e em paz.
+                                        –
+                                        <span class="GM">  <b> Palavra da Salvação.</b></span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="GM CL pt-3">Evangelho: Marcos 1,1-8</h5>
+                                </div>
+
+
+
+                                <div>
+                                    <p class="GB CL text-justify">
+                                        <sup>17</sup> Um dia Jesus estava ensinando. À sua volta estavam sentados fariseus e doutores da Lei, vindos de todas as aldeias da Galileia, da Judeia e de Jerusalém. E a virtude do Senhor o levava a curar. <sup>18</sup>                                        Uns homens traziam um paralítico num leito e procuravam fazê-lo entrar para apresentá-lo. <sup>19</sup> Mas, não achando por onde introduzi-lo devido à multidão, subiram ao telhado e, por entre as telhas, o desceram
+                                        com o leito no meio da assembleia, diante de Jesus. <sup>20</sup> Vendo-lhes a fé, ele disse: “Homem, teus pecados estão perdoados”. <sup>21</sup> Os escribas e fariseus começaram a murmurar, dizendo: “Quem é este
+                                        que assim blasfema? Quem pode perdoar os pecados senão Deus?” <sup>22</sup> Conhecendo-lhes os pensamentos, Jesus respondeu, dizendo: “Por que murmurais em vossos corações? <sup>23</sup> O que é mais fácil, dizer:
+                                        ‘Teus pecados estão perdoados’,ou dizer: ‘Levanta-te e anda’? <sup>24</sup> Pois, para que saibais que o Filho do Homem tem na terra poder de perdoar os pecados – disse ao paralítico -, eu te digo: levanta-te, pega
+                                        o leito e vai para casa”. <sup>25</sup> Imediatamente, diante deles, ele se levantou, tomou o leito e foi para casa, louvando a Deus. <sup>26</sup> Todos ficaram fora de si, glorificavam a Deus e, cheios de temor,
+                                        diziam: “Hoje vimos coisas maravilhosas!”–
+                                        <span class="GM">
+                                                <b> Palavra da Salvação.</b>
+                                               </span>
+                                    </p>
+                                </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+
+
+
+
+                        <!-- BLOG HEADING -->
+                        <p class="blog-heading pt-3">
+                            Leituras do mês
+
+
+                        </p>
+                        <div>
+                            <div class="calendar">
+
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="../../assets/script/leitura-calendar.js" type="text/javascript"></script>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="tagDiv">
+                            <h class="blue tags GM pb-1">Tags</h5>
+                        </div>
+                        <div class="GM pt-1">
+                            <div class="btnclass GM">
+                                <button class="adjbtn">missão</button>
+                                <button class="adjbtn">Amazônia</button>
+                                <button class="adjbtn">evengel</button>
+                            </div>
+                            <div class="btnclass GM">
+                                <button class="adjbtn">covid-19</button>
+                                <button class="adjbtn">indigenas</button>
+                                <button class="adjbtn">noviça</button>
+                            </div>
+                            <div class="btnclass">
+
+
+
+                                <button class="adjbtn">papa francisco</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- BLOG HEADING -->
+                    <p class="blog-heading pt-3 ">
+                        Destaques
+                    </p>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="destaquesPortion"></div>
+
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/audio.js"></script>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/headerfooter.css">
+    
+
+</head>
+
+<body class="sky-background">
+    <section>
+        <div id="headerCode"></div>
+
+
+        <div class="container zero-pading">
+            <div class="embed-responsive embed-responsive-16by9 video-border ">
+                <video autoplay muted src="./assets/video/BANNER_PRINCIPAL.mp4"></video>
+
+            </div>
+            <audio autoplay loop id="audioForVideo">
+                <source src="./assets/audio/Advento Music Banner Principal .mp3" type="audio/ogg" />
+
+            </audio>
+            <i class="fa fa-volume-up iconMute" aria-hidden="true" onclick="audioControl()" id="mute"></i>
+            <i class="fa  fa-volume-off iconUnmute" aria-hidden="true" onclick="audioControl()" id="unmute"></i>
+            <hr class="border-1 hideOnweb">
+            <div class="row " id="banner-row">
+
+                <div class="col-md-5 col-sm-12  mt-4 " id="banner">
+                </div>
+
+                <div class="col-md-7 mt-4 " id="hide-imgs">
+                    <div class="row ">
+                        <div class="col-md-6 col-sm-12" id="pl-10px">
+                            <a href="" id="leitura">
+                                <div class="img1 "><img src="./assets/img/home/peoples.jpg" alt=""
+                                        class="img-fluid img-border"></div>
+                            </a>
+                            <div class="img-button  GB"> LEITURA ORANTE</div>
+                        </div>
+                        <div class="col-md-6 col-sm-12" id="pl-10px">
+                            <a href="./Terço missionário/Terço missionário.html">
+                                <div class="img2"><img src="./assets/img/home/Banner_Terco_Missionario.jpg" alt=""
+                                        class="img-fluid  img-border"></div>
+                            </a>
+                            <div class="img-button GB">TERÇO MISSIONÁRIO</div>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-md-6 col-sm-12 " id="pl-10px">
+                            <a href="./pedidos-de-oracoes/pedidos.html">
+                                <div class="img2 ">
+                                    <div class="pedido-caption">Em breve.</div>
+                                    <img src="./assets/img/home/parapin.jpg" alt="" class="img-fluid img-border">
+                                </div>
+                            </a>
+                            <div class="img-button GB">PEDIDO DE ORAÇÕES</div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 " id="pl-10px">
+                            <a href="./Orientação Espiritual/Orientação Espiritual.html">
+                                <div class="img2 "><img src="./assets/img/home/capa_orientacao_espiritual.jpg" alt=""
+                                        id="img4" class="img-fluid img-border"></div>
+                            </a>
+                            <div class="img-button GB">ORIENTAÇÃO ESPIRITUAL</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12" id="carousel-div">
+                    <!-- caroseul Start -->
+                    <div class="container carousel-container">
+                        <div class="mySlides">
+                            <div class="image-content img-1">
+                                <!-- 185x32 -->
+                                <a href="" id="leitura1">
+                                    <div class="carousel-slide">
+                                        <img src="./assets/img/home/peoples.jpg" class="carousel-slide-img" />
+                                        <div class="content-label GM">LEITURA ORANTE</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="image-content img-1">
+                                <a href="./Terço missionário/Terço missionário.html" target="_self">
+                                    <!-- 185x32 -->
+                                    <div class="carousel-slide">
+                                        <img src="./assets/img/home/Banner_Terco_Missionario.jpg"
+                                            class="carousel-slide-img" />
+                                        <div class="content-label GM">TERÇO MISSIONÁRIO</div>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="mySlides">
+                            <div class="image-content img-1">
+                                <!-- 185x32 -->
+                                <a href="./pedidos-de-oracoes/pedidos.html">
+                                    <div class="carousel-slide">
+                                        <div class="pedido-caption">Em breve.</div>
+
+                                        <img src="./assets/img/home/parapin.jpg" class="carousel-slide-img" />
+                                        <div class="content-label GM">PEDIDO DE ORAÇÕES</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mySlides">
+                            <div class="image-content img-1">
+                                <!-- 185x32 -->
+                                <a href="./Orientação Espiritual/Orientação Espiritual.html">
+                                    <div class="carousel-slide">
+
+                                        <img src="./assets/img/home/capa_orientacao_espiritual.jpg"
+                                            class="carousel-slide-img" />
+                                        <div class="content-label GM">ORIENTAÇÃO ESPIRITUAL</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="prev" onclick="plusSlides(-1)">❮</div>
+                        <div class="next" onclick="plusSlides(1)">❯</div>
+                    </div>
+                    <!-- carousel Ends -->
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- HEADING CONTENT -->
+
+    <div class="container" id="home-post-container">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-12 ">
+                <h2 class="main-heading pt-5 GM CL pl-3">Destaques</h2>
+                <div class="border-1 pt-2 pb-1 w-94"></div>
+            </div>
+        </div>
+
+        <!-- HEADING CONTENT -->
+
+        <div class="row" id="home-post-row">
+            <div class="col-lg-9 col-md-9 col-sm-12" id="home-post">
+
+                <div id="destaquesMain"></div>
+
+            </div>
+
+            <!-- SIDE BAR CONTENT START -->
+
+
+            <div class="col-lg-3 col-md-3 col-sm-12" id="home-post-sidebar">
+                <div class="search-block">
+                    <form class="search-form d-flex" action="">
+                        <input type="text" class="search w-100">
+                        <button type="submit" class="search-button">
+                            <img class="LUPA_IMG" src="./assets/img/header-footer/LUPA.png"></button>
+                    </form>
+                </div>
+                <div id="sidebar-banar">
+                    <a href="./leonardo-boff/leonardo-boff.html">
+                        <img src="./assets/img/home/BANNER_Leonardo_Boff.jpg" alt="" class="img-fluid img-border">
+                    </a>
+                </div>
+                <!-- BLOG HEADING -->
+                <p class="blog-heading">
+                    Semana Anterior
+                </p>
+                <div id="previousWeek">
+
+                </div>
+
+                <!-- <div class="d-flex CV-Video-Link-Post forHover">
+
+                    <div class="img_1">
+                        <a href="##"><img src=".././assets/img/12_Dez_2020_Vocações .png" class="img-fluid" alt="">
+                    </div>
+                    <div class="pl-2 ">
+
+                        <p class="add-mt-15-CV-Video mb-0">Você já imaginou com...</p>
+                        <p class="date date-text"><i class="fa fa-calendar" aria-hidden="true"></i><span
+                                class="cal-icon fa fa-calendar date-text"></span> 19 de dezembro de 2020 </p>
+                        </a>
+                    </div>
+
+                </div> -->
+
+
+
+            </div>
+            <!-- SIDE BAR CONTENT END -->
+
+        </div>
+    </div>
+
+
+
+    <div id="footerCode"></div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+</body>
+<script src="./assets/script/banner.js"></script>
+<script src="./assets/script/home.js"></script>
+
+
+</html>
+<script src="./assets/script/header-footer.js"></script>
+<script src="./assets/script/postData.js"></script>
+<script src="./assets/script/semana.js"></script>
+<!-- <script src="./assets/script/destaquesMain.js"></script> -->

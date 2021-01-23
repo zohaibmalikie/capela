@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEITURA ORANTE</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css">
+    <link rel="stylesheet" href="../../assets/css/leitura-orante-sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+        <div id="headerCode"></div>
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container bg-white pl-3 pr-3 pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+                    <h2 class="main-heading ">Leitura Orante </h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <div>
+                                    <h4 class="pt-4">Leituras do Dia</h4>
+                                </div>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 09 de janeiro de
+                                    2021
+                                </p>
+                                <div>
+                                    <h5 class="GM CL">Semana da Epifania </h5>
+                                </div>
+                                <div>
+                                    <p class="GB CL">(Branco, prefácio da Epifania ou do Natal – Ofício do dia)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img
+                                    src="../../assets/img/leitura/leitura-img-jan/09_Janeiro_2021.jpg" class="img-fluid"
+                                    alt="">
+                                <div class="img-content">
+                                    <p class="GM mb-0 text-end pt-2">Leitura Orante do Evangelho
+                                    </p>
+                                    <p class="GL mb-0">
+                                        Ouca o audio com oracao e reflexao do
+
+                                    </p>
+                                    <p class="text-end">
+                                        padre Fransico das Chages
+                                    </p>
+                                    <div class="webkit-right">
+                                        <audio id="audio_play">
+                                            <source
+                                                src="../../assets/audio/leitura-orante-jan/09_01_2021_Leitura_Orante.mp4"
+                                                type="audio/ogg">
+                                        </audio>
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/LISTEN.png"
+                                            class="img-fluid  listen_pause_web" alt="" onclick="play()" id="play">
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/PAUSE.png"
+                                            class="img-fluid listen_play_web" alt="" onclick="pause()" id="pause">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Oração do dia</h5>
+
+                                <p class="GB CL" id="para_content">
+                                    Deus eterno e todo-poderoso, pelo vosso Filho nos fizestes nova criatura para vós.
+                                    Dai-nos, pela vossa graça, participar da divindade daquele que uniu a vós a nossa
+                                    humanidade. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.
+                                </p>
+
+                            </div>
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Leitura: 1 João 5,14-21</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Caríssimos, <sup>14</sup> esta é a confiança que temos em Deus: se lhe pedimos
+                                    alguma coisa de
+                                    acordo com a sua vontade, ele nos ouve. <sup>15</sup> E se sabemos que ele nos ouve
+                                    em tudo o
+                                    que lhe pedimos, sabemos que possuímos o que havíamos pedido. <sup>16</sup> Se
+                                    alguém vê seu
+                                    irmão cometer um pecado que não conduz à morte, que ele reze, e Deus lhe dará a
+                                    vida; isso se, de fato, o pecado cometido não conduz à morte. Existe um pecado que
+                                    conduz à morte, mas não é a respeito deste que eu digo que se deve rezar.
+                                    <sup>17</sup> Toda
+                                    iniquidade é pecado, mas existe pecado que não conduz à morte. <sup>18</sup> Sabemos
+                                    que todo
+                                    aquele que nasceu de Deus não peca. Aquele que é gerado por Deus o guarda, e o
+                                    maligno não o pode atingir. <sup>19</sup> Nós sabemos que somos de Deus, ao passo
+                                    que o mundo
+                                    inteiro está sob o poder do maligno. <sup>20</sup> Nós sabemos que veio o Filho de
+                                    Deus e nos
+                                    deu inteligência para conhecermos aquele que é o verdadeiro. E nós estamos com o
+                                    verdadeiro, no seu Filho, Jesus Cristo. Este é o Deus verdadeiro e a vida eterna.
+                                    <sup>21</sup>
+                                    Filhinhos, guardai-vos dos ídolos. –
+                                    <span class="GM"> <b>Palavra
+                                            do
+                                            Senhor. </b></span>
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5 class="GM CL pt-3">Salmo Responsorial: 149</h5>
+                            </div>
+
+                            <div>
+                                <h6 class="GM CL"><i>O Senhor ama seu povo de verdade.</i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0 ">Cantai ao Senhor Deus um canto novo e o seu louvor na
+                                assembleia dos fiéis! Alegre-se Israel em quem o fez, e Sião se rejubile no seu rei!
+                            </p>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>O Senhor ama seu povo de verdade.</i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0">Com danças glorifiquem o seu nome, toquem harpa e tambor
+                                em sua honra! Porque, de fato, o Senhor ama seu povo e coroa com vitória os seus
+                                humildes.
+
+
+                            </p>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>O Senhor ama seu povo de verdade.</i>
+                                </h6>
+                            </div>
+                            <p class="GB CL text-justify mb-0">Exultem os fiéis por sua glória e, cantando, se levantem
+                                de seus leitos
+                                com louvores do Senhor em sua boca. Eis a glória para todos os seus santos.
+
+                            </p>
+
+
+
+
+
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>O Senhor ama seu povo de verdade.</i>
+                                </h6>
+                            </div>
+
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Evangelho: João 3,22-30</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Naquele tempo, <sup>22</sup> Jesus foi com seus discípulos para a região da Judeia. Permaneceu
+                                    aí com eles e batizava. <sup>23</sup> Também João estava batizando, em Enon, perto de Salim,
+                                    onde havia muita água. Aí chegavam as pessoas e eram batizadas. <sup>24</sup> João ainda não
+                                    tinha sido posto no cárcere. <sup>25</sup>Alguns discípulos de João estavam discutindo com um
+                                    judeu a respeito da purificação. <sup>26</sup> Foram a João e disseram: “Rabi, aquele que
+                                    estava contigo além do Jordão, e do qual tu deste testemunho, agora está batizando,
+                                    e todos vão a ele”. <sup>27</sup> João respondeu: “Ninguém pode receber alguma coisa se não lhe
+                                    for dada do céu. <sup>282</sup> Vós mesmos sois testemunhas daquilo que eu disse: ‘Eu não sou o
+                                    Messias, mas fui enviado na frente dele’. <sup>29</sup> É o noivo que recebe a noiva, mas o
+                                    amigo, que está presente e o escuta, enche-se de alegria ao ouvir a voz do noivo.
+                                    Esta é a minha alegria, e ela é completa. <sup>30</sup> É necessário que ele cresça e eu
+                                    diminua”. –
+                                    <span class="GM">
+                                        <b>Palavra da Salvação.</b></span>
+                                </p>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <!-- BLOG HEADING -->
+                        <p class="blog-heading pt-3">
+                            Leituras do mês
+
+
+                        </p>
+                        <div>
+                            <div class="calendar">
+
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="../../assets/script/leitura-calendar.js"
+                                        type="text/javascript"></script>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+                        <div class="tagDiv">
+                            <h class="blue tags GM pb-1">Tags</h5>
+                        </div>
+                        <div class="GM pt-1">
+                            <div class="btnclass GM">
+                                <button class="adjbtn">missão</button>
+                                <button class="adjbtn">Amazônia</button>
+                                <button class="adjbtn">evengel</button>
+                            </div>
+                            <div class="btnclass GM">
+                                <button class="adjbtn">covid-19</button>
+                                <button class="adjbtn">indigenas</button>
+                                <button class="adjbtn">noviça</button>
+                            </div>
+                            <div class="btnclass">
+
+
+
+                                <button class="adjbtn">papa francisco</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- BLOG HEADING -->
+                    <p class="blog-heading pt-3 ">
+                        Destaques
+                    </p>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="destaquesPortion"></div>
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/audio.js"></script>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>

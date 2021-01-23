@@ -1,0 +1,138 @@
+.bg-white {
+    background-color: #ffffff;
+    /* max-width: 1111px; */
+}
+
+.border-1 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+.border-2 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+
+/* .GB
+{
+    text-align: justify;
+    
+} */
+
+.img-1 {
+    float: right;
+    width: 65%;
+    padding-left: 25px;
+}
+
+.img-2 {
+    float: right;
+    width: 55%;
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.img-3 {
+    float: right;
+    width: 50%;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.img-width {
+    width: 86%;
+}
+
+.sky-backgorund {
+    background-image: url(../img/sky-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* side bar start */
+
+.CV-Video-Link-Post {
+    height: auto;
+    border-bottom: 2px solid #dce4e7;
+    padding-top: 6px;
+}
+
+.img_1 {
+    width: 25%;
+}
+
+.add-mt-15-CV-Video {
+    font-size: 0.8rem;
+    color: #666666 !important;
+}
+
+.border-1 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+#btn-leia-mais {
+    width: 160px;
+}
+
+
+/* side bar end */
+
+@media (min-width:1100px) {
+    .mainHeading {
+        width: 48%;
+        min-height: 115px;
+        max-height: 115px;
+    }
+    .mainImage {
+        margin-top: -11%;
+    }
+}
+
+@media (max-width:800px) and (min-width:300px) {
+    .Quem-Somos {
+        text-align: center;
+    }
+    .img-1 {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .img-2 {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .img-3 {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .bottom {
+        padding-bottom: 30px;
+    }
+
+    #bottom-wrap
+    {
+        flex-wrap: nowrap;
+        font-size: 12px;
+    }
+    .bottom-flex
+    {
+        flex-wrap: nowrap;
+       
+    font-size: 8px;
+
+        
+    }
+    .h-font
+    {
+      
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+}

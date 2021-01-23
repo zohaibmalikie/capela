@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.subHeading1 {
+    color: #666666;
+}
+
+.orac-content>p {
+    color: #666666;
+    /* padding-top: 20px; */
+}
+
+div>a>button {
+    background-image: linear-gradient(#5ca9e3, #04518b);
+    width: 140px;
+    height: 34px;
+    color: #fff;
+    background-color: #4282b0;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 0px;
+    line-height: 22px;
+    outline: none !important;
+}
+.orac_video_content{
+    color: red;
+    font-size: 15px;
+}
+.orac_pdf_contact{
+    text-decoration: underline;
+    color: black;
+}
+

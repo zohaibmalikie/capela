@@ -1,0 +1,118 @@
+                                        .form-color {
+                                            background-color: #ffeaf5;
+                                        }
+                                        
+                                        .blue {
+                                            color: #7b1a42;
+                                        }
+                                        
+                                        .border-blue {
+                                            border-bottom: 3px solid #fe1a81;
+                                            ;
+                                        }
+                                        
+                                        .FS-12 {
+                                            font-size: 12.8px;
+                                            font-weight: 600;
+                                        }
+                                        
+                                        .inputHeight {
+                                            height: 25px;
+                                        }
+                                        
+                                        .submitButton {
+                                            color: #ffeaf5;
+                                            background-color: #fe1a81;
+                                            height: 30px;
+                                            width: 111px;
+                                            font-size: 12px;
+                                            border: none;
+                                        }
+                                        
+                                        .border-div {
+                                            border: 1px solid lightgray;
+                                        }
+                                        
+                                        .text-end {
+                                            text-align: end;
+                                        }
+                                        
+                                        @media (max-width:650px) {
+                                            .border-blue {
+                                                display: none;
+                                            }
+                                            .headinG {
+                                                color: #7b1a42;
+                                                font-weight: bolder;
+                                            }
+                                            .FS-12 {
+                                                display: none;
+                                            }
+                                            .form-color {
+                                                border-radius: 17px;
+                                                padding-top: 1.5rem !important;
+                                            }
+                                            .inputHeight {
+                                                border: none;
+                                                border-radius: 8px;
+                                                height: 43px;
+                                                margin-bottom: 15px !important;
+                                            }
+                                            .secndInput {
+                                                padding-left: 0px !important;
+                                                padding-right: 15px !important;
+                                                margin-bottom: 15px;
+                                            }
+                                            .thirdInput {
+                                                padding-left: 0px !important;
+                                            }
+                                            .fourthInput {
+                                                padding-left: 0px !important;
+                                            }
+                                            .fithInput {
+                                                padding-left: 0px !important;
+                                                padding-right: 15px !important;
+                                                margin-bottom: 15px;
+                                            }
+                                            .sixthInput {
+                                                padding-left: 0px !important;
+                                                padding-right: 15px !important;
+                                                margin-bottom: 15px;
+                                            }
+                                            .eightInput {
+                                                padding-left: 0px !important;
+                                                padding-right: 15px !important;
+                                                margin-bottom: 15px;
+                                            }
+                                            .ninth_input {
+                                                padding-left: 0px !important;
+                                            }
+                                            .height {
+                                                height: 43px !important;
+                                                padding-left: 15px !important;
+                                                padding-right: 15px !important;
+                                            }
+                                            .secondHeading {
+                                                font-size: 15px !important;
+                                                color: #7b1a42;
+                                            }
+                                            .border-div {
+                                                border-radius: 8px;
+                                            }
+                                            .submitButton {
+                                                width: 100%;
+                                                border-radius: 10px !important;
+                                                font-weight: bold;
+                                                height: 100%;
+                                            }
+                                        }
+                                        
+                                        .seventhInput {
+                                            padding-left: 15px !important;
+                                        }
+                                        
+                                        @media (min-width: 1100px) {
+                                            .pl-rem {
+                                                padding-left: 1.8rem;
+                                            }
+                                        }

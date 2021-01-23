@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEITURA ORANTE</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css">
+    <link rel="stylesheet" href="../../assets/css/leitura-orante-sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+        <div id="headerCode"></div>
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container bg-white pl-3 pr-3 pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+                    <h2 class="main-heading ">Leitura Orante </h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <div>
+                                    <h4 class="pt-4">Leituras do Dia</h4>
+                                </div>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 30 de janeiro de
+                                    2021
+                                </p>
+                                <div>
+                                    <h5 class="GM CL">3ª Semana do Tempo Comum
+                                    </h5>
+                                </div>
+                                <div>
+                                    <p class="GB CL">(Verde – Ofício do dia)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img
+                                    src="../../assets/img/leitura/leitura-img-jan/30_Janeiro_2021.jpg" class="img-fluid"
+                                    alt="">
+                                <div class="img-content">
+                                    <p class="GM mb-0 text-end pt-2">Leitura Orante do Evangelho
+                                    </p>
+                                    <p class="GL mb-0">
+                                        Ouca o audio com oracao e reflexao do
+
+                                    </p>
+                                    <p class="text-end">
+                                        padre Fransico das Chages
+                                    </p>
+                                    <div class="webkit-right">
+                                        <audio id="audio_play">
+                                            <source
+                                                src="../../assets/audio/leitura-orante-jan/09_01_2021_Leitura_Orante.mp4"
+                                                type="audio/ogg">
+                                        </audio>
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/LISTEN.png"
+                                            class="img-fluid  listen_pause_web" alt="" onclick="play()" id="play">
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/PAUSE.png"
+                                            class="img-fluid listen_play_web" alt="" onclick="pause()" id="pause">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Oração do dia</h5>
+
+                                <p class="GB CL" id="para_content">
+                                    Ó Deus, que desejais a salvação de todos e que cheguem ao conhecimento da vossa
+                                    messe e enviai operários, para que o Evangelho seja anunciado a toda criatura. E
+                                    fazei que o vosso povo, reunido pela palavra da vida e sustentado pela força dos
+                                    sacramentos, possa caminhar com alegria na estrada da salvação e do amor. Por Nosso
+                                    Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.</p>
+
+                            </div>
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Leitura: Hebreus 11,1-2.8-19</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Irmãos, <sup>1</sup> a fé é um modo de já possuir o que ainda se espera, a convicção
+                                    acerca de
+                                    realidades que não se veem. <sup>2</sup> Foi a fé que valeu aos antepassados um bom
+                                    testemunho.
+                                    <sup>8</sup> Foi pela fé que Abraão obedeceu à ordem de partir para uma terra que
+                                    devia receber
+                                    como herança e partiu, sem saber para onde ia. <sup>9</sup> Foi pela fé que ele
+                                    residiu como
+                                    estrangeiro na terra prometida, morando em tendas com Isaac e Jacó, os coerdeiros da
+                                    mesma promessa. <sup>10</sup> Pois esperava a cidade alicerçada que tem Deus mesmo
+                                    por
+                                    arquiteto e construtor. <sup>11</sup> Foi pela fé também que Sara, embora estéril e
+                                    já de idade
+                                    avançada, se tornou capaz de ter filhos, porque considerou fidedigno o autor da
+                                    promessa. <sup>12</sup> É por isso também que de um só homem, já marcado pela morte,
+                                    nasceu a
+                                    multidão “comparável às estrelas do céu e inumerável como a areia das praias do
+                                    mar”. <sup>13</sup> Todos esses morreram na fé. Não receberam a realização da
+                                    promessa, mas a
+                                    puderam ver e saudar de longe e se declararam estrangeiros e migrantes nesta terra.
+                                    <sup>14</sup> Os que falam assim demonstram que estão buscando uma pátria,
+                                    <sup>15</sup> e se se
+                                    lembrassem daquela que deixaram, até teriam tempo de voltar para lá. <sup>16</sup>
+                                    Mas, agora,
+                                    eles desejam uma pátria melhor, isto é, a pátria celeste. Por isso, Deus não se
+                                    envergonha deles ao ser chamado o seu Deus. Pois preparou mesmo uma cidade para
+                                    eles. <sup>17</sup> Foi pela fé que Abraão, posto à prova, ofereceu Isaac; ele, o
+                                    depositário
+                                    da promessa, sacrificava o seu filho único, <sup>18</sup> do qual havia sido dito:
+                                    “É em Isaac
+                                    que uma descendência levará o teu nome”. <sup>19</sup> Ele estava convencido de que
+                                    Deus tem
+                                    poder até de ressuscitar os mortos e assim recuperou o filho – o que é também um
+                                    símbolo. –
+                                    <span class="GM"> <b>Palavra
+                                            do
+                                            Senhor. </b></span>
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5 class="GM CL pt-3">Salmo Responsorial: Lc 1</h5>
+                            </div>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>Bendito seja o Senhor Deus de Israel, porque a seu povo
+                                        visitou e libertou!
+                                    </i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0">
+                                Fez surgir um poderoso salvador na casa de Davi, seu servidor,
+                                como falara pela boca de seus santos, os profetas desde os tempos mais antigos.
+
+
+                            </p>
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>Bendito seja o Senhor Deus de Israel, porque a seu povo
+                                        visitou e libertou!
+                                    </i>
+                                </h6>
+                            </div>
+                            <p class="GB CL text-justify mb-0">Para salvar-nos do poder dos inimigos e da mão de todos
+                                quantos nos odeiam.
+                                Assim mostrou misericórdia a nossos pais, recordando a sua santa aliança.
+
+
+                            </p>
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>Bendito seja o Senhor Deus de Israel, porque a seu povo
+                                        visitou e libertou!
+                                    </i>
+                                </h6>
+                            </div>
+                            <p class="GB CL text-justify mb-0">E o juramento a Abraão, o nosso pai, de conceder-nos que,
+                                libertos do inimigo,
+                                a ele nós sirvamos sem temor, em santidade e em justiça diante dele,
+                                enquanto perdurarem nossos dias.
+
+                            </p>
+
+
+
+
+
+
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>Bendito seja o Senhor Deus de Israel, porque a seu povo
+                                        visitou e libertou!
+                                    </i>
+                                </h6>
+                            </div>
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Evangelho: Marcos 4,35-41</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    <sup>35</sup>Naquele dia, ao cair da tarde, Jesus disse a seus discípulos: “Vamos para a outra
+                                    margem!” <sup>36</sup>Eles despediram a multidão e levaram Jesus consigo, assim como estava,
+                                    na barca. Havia ainda outras barcas com ele. <sup>37</sup>Começou a soprar uma ventania muito
+                                    forte e as ondas se lançavam dentro da barca, de modo que a barca já começava a se
+                                    encher. <sup>38</sup>Jesus estava na parte detrás, dormindo sobre um travesseiro. Os
+                                    discípulos o acordaram e disseram: “Mestre, estamos perecendo e tu não te importas?”
+                                    <sup>39</sup>Ele se levantou e ordenou ao vento e ao mar: “Silêncio! Cala-te!” O vento cessou
+                                    e houve uma grande calmaria. <sup>40</sup>Então Jesus perguntou aos discípulos: “Por que sois
+                                    tão medrosos? Ainda não tendes fé?” <sup>41</sup>Eles sentiram um grande medo e diziam uns aos
+                                    outros: “Quem é este, a quem até o vento e o mar obedecem?” –
+                                    <span class="GM"> <b>Palavra da Salvação.</b></span>
+                                </p>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <!-- BLOG HEADING -->
+                        <p class="blog-heading pt-3">
+                            Leituras do mês
+
+
+                        </p>
+                        <div>
+                            <div class="calendar">
+
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="../../assets/script/leitura-calendar.js"
+                                        type="text/javascript"></script>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+                        <div class="tagDiv">
+                            <h class="blue tags GM pb-1">Tags</h5>
+                        </div>
+                        <div class="GM pt-1">
+                            <div class="btnclass GM">
+                                <button class="adjbtn">missão</button>
+                                <button class="adjbtn">Amazônia</button>
+                                <button class="adjbtn">evengel</button>
+                            </div>
+                            <div class="btnclass GM">
+                                <button class="adjbtn">covid-19</button>
+                                <button class="adjbtn">indigenas</button>
+                                <button class="adjbtn">noviça</button>
+                            </div>
+                            <div class="btnclass">
+
+
+
+                                <button class="adjbtn">papa francisco</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- BLOG HEADING -->
+                    <p class="blog-heading pt-3 ">
+                        Destaques
+                    </p>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="destaquesPortion"></div>
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/audio.js"></script>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>

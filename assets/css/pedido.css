@@ -1,0 +1,117 @@
+.bgIMage {
+    background-image: url('/assets/img/pedidos/parapin.jpg');
+    border: 5px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg_Color {
+    background: rgb(242 242 242 / 0.1);
+    border-radius: 20px;
+}
+
+.form-control {
+    height: 1.5rem !important;
+}
+
+.heading {
+    color: #fdbf00;
+    margin-top: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heading1 {
+    color: #fdfafa !important;
+    text-align: center;
+    font-size: 31px;
+    padding-top: 23px;
+    opacity: 1 !important;
+    /* font-family: GothamMedium !important; */
+}
+
+.paragraph {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.UF {
+    width: 5%;
+    /* float: left; */
+}
+
+.UF input {
+    width: 60px;
+    border-radius: 4px;
+    color: #9a9a9a;
+    /* padding-left: 10px; */
+}
+
+.Cidade input {
+    width: 86%;
+    border-radius: 4px;
+    margin-left: 50px;
+    color: #9a9a9a;
+    padding-left: 7px;
+}
+
+.selector input {
+    width: 72%;
+    border-radius: 4px;
+    margin-left: 43px;
+    color: #9a9a9a;
+    padding-left: 7px;
+}
+
+.textErea {
+    margin-top: 14px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.conditon {
+    /* margin-left: 10px; */
+    margin-top: 10px;
+}
+
+.set-ul-li-text>li>a,
+span {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+.button1 button {
+    width: 98%;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    background-color: #ffb400;
+    border-radius: 4px;
+    color: #6b0502;
+    margin-top: 20px;
+}
+
+.lastBtn {
+    text-align: end;
+}
+
+.lastBtn button {
+    border: none;
+    outline: none;
+    background-color: #008bcc;
+    color: #eef2f2;
+    border-radius: 4px;
+    /* padding: 10px; */
+    height: 30px;
+    width: 150px;
+    font-size: 0.8rem;
+    margin-left: auto;
+}
+
+.lastBtn {
+    margin-top: 24px;
+}

@@ -1,0 +1,154 @@
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+    position: relative;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+.mySlides>img {
+    width: 100%;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 16px;
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: grey;
+    opacity: 0.7;
+    border-radius: 100px;
+}
+
+.prev {
+    left: 15px;
+}
+
+.next {
+    right: 15px;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 15px;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Container for image text */
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Six columns side by side */
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.heading-carousel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media(max-width:1100px) and (min-width:900px) {
+    .prev,
+    .next {
+        top: 17rem;
+    }
+}
+
+@media(max-width:899px) and (min-width:768px) {
+    .prev,
+    .next {
+        top: 14rem;
+    }
+}
+
+@media(max-width:767px) and (min-width:300px) {
+    .prev,
+    .next {
+        top: 13rem;
+        width: 40px;
+        height: 40px;
+        padding: 11px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+}
